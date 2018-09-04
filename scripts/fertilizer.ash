@@ -7,7 +7,7 @@ void main(int fertilizer) {
         string gstatus = cli_execute("garden");
         print(gstatus);
         // Ensure if we are starting with Thanksgarden we pick before we switch
-        if (contains_text("cornucopias in it", gstatus))
+        if (contains_text(gstatus, "cornucopias in it"))
         {
             cli_execute("garden pick");
             
