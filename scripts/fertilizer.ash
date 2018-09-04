@@ -5,7 +5,7 @@ void main(int fertilizer) {
     {
         // Check to see if we are on Thanksgarden.  Harvest and switch.
         string gstatus = cli_execute("garden");
-        print gstatus
+        print(gstatus);
         // Ensure if we are starting with Thanksgarden we pick before we switch
         if (contains_text("cornucopias in it", gstatus))
         {
