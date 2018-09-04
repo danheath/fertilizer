@@ -1,4 +1,4 @@
-script "thanks-fertilizer.ash"
+script "fertilizer.ash"
 
 void main(int fertilizer) {
     if ( fertilizer <= ($item[Poke-Gro fertilizer].item_amount()))
